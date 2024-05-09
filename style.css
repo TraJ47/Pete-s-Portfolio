@@ -12,7 +12,7 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
-/* All headers are center*/
+/* All headers are center. Let's keep it that way for consistency */
 header {
   text-align: center;
 }
@@ -28,12 +28,8 @@ nav{
   margin:10
    }
 
-footer {
-  text-align: center;  
-  font-size: 0.8em;
-  }
 
-/* Set the font family for any h1, h2, or h3 heading */
+/* Keep all headers within the same family font style to make it look more professional */
 
 h1,
 h2,
@@ -42,12 +38,17 @@ h3 {
   text-align: center;
 }
 
-/*Set the font size for header 2 & 3 bigger than header 1 */
+/* Do not change font size to numbers. It is easier to stick with small, medium or lager */
 
-h2,
+h2{
+ font-size:large;
+  text-align: center;
+}
+
 h3{
-  font-size 12px;
-  }
+  font-size:medium;
+  text-align: center;
+}
 
 .image-circle {
   border-radius: 100px;
@@ -55,12 +56,14 @@ h3{
 }
 
 ul{
-  text-align:left ;
-  }
+  text-align:left;
+  margin-left: 200px;
+}
 
 ol{
-  text-align:left;
-    }
+  text-align: left;
+  margin-left: 200px;
+}
 
 article {
   padding: 35px 0;
@@ -72,10 +75,14 @@ article div {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.2;
   text-align:left;
-}
+  margin-left: 200px;
+ }
 
+footer{
+  text-align:center;
+}
 /* The div container constrains the content width within the main container to 600px */
 
 div {
@@ -91,6 +98,8 @@ img {
 
 hr {
   border: 1px solid black;
+   margin-left: 85px;
+  margin-right: 85px;
 }
 
 a{
@@ -100,7 +109,7 @@ a:hover {
   color: #f77f00;
 }
 
+/*This mock was really cool to work on. Feel free to add or change out Pete's designs to keep the website of his current work updated. If anything changes, be sure to keep the comments updated for the next coder. */
 
-/* Do not change the fonts are the alignment within the css. Feel free to change the headers and use a different art piece */
 
 
